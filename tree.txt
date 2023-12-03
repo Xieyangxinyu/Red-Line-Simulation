@@ -1,0 +1,136 @@
+.
+├── README.md
+├── poetry.lock
+├── processed_data
+│   ├── bus_accurate_data.csv
+│   ├── job_accessibility
+│   │   ├── job_totals
+│   │   │   ├── 30_diff.csv
+│   │   │   ├── 45_diff.csv
+│   │   │   ├── red_line
+│   │   │   │   ├── 2023-01-03
+│   │   │   │   │   ├── 30.csv
+│   │   │   │   │   ├── 45.csv
+│   │   │   │   │   └── 60.csv
+│   │   │   │   ├── ...
+│   │   │   ├── red_line_30_accessibility.csv
+│   │   │   ├── red_line_45_accessibility.csv
+│   │   │   ├── transit_status_quo
+│   │   │   │   ├── 2023-01-03
+│   │   │   │   │   ├── 30.csv
+│   │   │   │   │   ├── 45.csv
+│   │   │   │   │   └── 60.csv
+│   │   │   │   ├── ...
+│   │   │   ├── transit_status_quo_30_accessibility.csv
+│   │   │   └── transit_status_quo_45_accessibility.csv
+│   │   └── mid_to_lower_job_totals
+│   │       ├── 30_diff.csv
+│   │       ├── 45_diff.csv
+│   │       ├── red_line
+│   │       │   ├── 2023-01-03
+│   │       │   │   ├── 30.csv
+│   │       │   │   ├── 45.csv
+│   │       │   │   └── 60.csv
+│   │       │   ├── ...
+│   │       ├── red_line_30_accessibility.csv
+│   │       ├── red_line_45_accessibility.csv
+│   │       ├── transit_status_quo
+│   │       │   ├── 2023-01-03
+│   │       │   │   ├── 30.csv
+│   │       │   │   ├── 45.csv
+│   │       │   │   └── 60.csv
+│   │       │   ├── ...
+│   │       ├── transit_status_quo_30_accessibility.csv
+│   │       └── transit_status_quo_45_accessibility.csv
+│   ├── job_totals_blocks.csv
+│   ├── mid_to_lower_job_centers.pkl
+│   ├── redline.zip
+│   ├── residents.pkl
+│   ├── service_area.pkl
+│   ├── travel_time_matrices
+│   │   ├── 2023-01-03_travel_time.csv
+│   │   ├── ...
+│   │   ├── 2023-05-31_travel_time.csv
+│   │   └── rewrite.py
+│   ├── updated_gtfs
+│   │   ├── 2023-01-03.zip
+│   │   ├── ...
+│   │   └── 2023-05-31.zip
+│   ├── walking_service_area.pkl
+│   └── workplace.pkl
+├── pyproject.toml
+├── raw_data
+│   ├── Baltimore Red Line- Alignment.csv
+│   ├── Baltimore Red Line- Stations.csv
+│   ├── bus.zip # downloaded from [TransitLand](https://www.transit.land)
+│   ├── bus_accurate_data.csv # historical bus data at the stop level, provided by ARIES for Transit
+│   ├── commuterbus_gtfs.zip
+│   ├── maryland-latest.osm.pbf
+│   ├── md_od_main_JT00_2020.csv.gz
+│   ├── md_rac_S000_JT00_2020.csv.gz
+│   ├── md_wac_S000_JT00_2020.csv.gz
+│   ├── rail_gtfs.zip
+│   ├── subway_gtfs.zip
+│   ├── train_gtfs.zip
+│   └── transitland_bus
+│       ├── agency.txt
+│       ├── calendar.txt
+│       ├── calendar_attributes.txt
+│       ├── calendar_dates.txt
+│       ├── directions.txt
+│       ├── fare_containers.txt
+│       ├── fare_leg_rules.txt
+│       ├── fare_products.txt
+│       ├── fare_transfer_rules.txt
+│       ├── feed_info.txt
+│       ├── rider_categories.txt
+│       ├── routes.txt
+│       ├── shapes.txt
+│       ├── stop_times.txt
+│       ├── stops.txt
+│       └── trips.txt
+├── redline
+│   ├── agency.txt
+│   ├── calendar.txt
+│   ├── calendar_dates.txt
+│   ├── fare_containers.txt
+│   ├── fare_leg_rules.txt
+│   ├── fare_products.txt
+│   ├── fare_transfer_rules.txt
+│   ├── pathways.txt
+│   ├── rider_categories.txt
+│   ├── routes.txt
+│   ├── shapes.txt
+│   ├── stop_times.txt
+│   ├── stops.txt
+│   └── trips.txt
+├── src
+│   ├── accessibility
+│   │   ├── diff.py
+│   │   ├── job_accessibility.py
+│   │   ├── job_data.py
+│   │   ├── quantile.py
+│   │   └── util.py
+│   ├── config.yaml
+│   ├── data visualisation
+│   │   ├── case studies.ipynb
+│   │   ├── download_lodes_data.py
+│   │   ├── job centers.ipynb
+│   │   ├── job_accessibility.ipynb
+│   │   ├── network.ipynb
+│   │   └── util.py
+│   ├── prepare_GTFS
+│   │   ├── add_red_line.py
+│   │   ├── download_GTFS.py
+│   │   ├── real_time_bus_data_imputation.py
+│   │   └── util.py
+│   ├── preprocessing
+│   │   └── preprocessing.py
+│   ├── travel_time_computation
+│   │   ├── prepare_data.py
+│   │   ├── travel_time_Baltimore.py
+│   │   └── travel_time_computation.py
+│   └── util.py
+└── tree.txt
+
+436 directories, 1544 files

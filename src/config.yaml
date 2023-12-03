@@ -1,0 +1,36 @@
+raw_data_path: raw_data/
+processed_data_path: processed_data/
+
+rac_file_path: md_rac_S000_JT00_2020.csv.gz
+wac_file_path: md_wac_S000_JT00_2020.csv.gz
+osm_path: maryland-latest.osm.pbf
+
+
+# parameters for transitland api
+api_key: <your api key for transit land> 
+bus_feed_link: 8523f088e05dcd273b369dd4d65eb771c73c0a22
+bus_feed_new_april19_june17: 43780cb91a70b8885334ba96eeabb64634b798b0
+rail_feed_link: c4233b29806296fc80209881fd9cec6c49fd9380
+subway_feed_link: 9b0a275f899fcb67a9d2107be8b9976326507a35
+commuterbus_feed_link: 6cc96d82827a3dfb39807521ad8a77cf8d77b368
+train_feed_link: 32c1ab0bebce48f0f58a8110ebe245ccb5008930
+bus_start_end: 08-28-2022, (intermediate end- 02/04-2023), 04-23-2023
+subway_start_end: 07-08-2022, 12-31-2023
+rail_start_end: 07-08-2022,12-31-2023
+com_bus_start_end: 08-29-2021, 12-31-2023
+train_start_end: 11-14-2022, 12-31-2023
+
+# parameters for computing the historical travel time for each bus route
+bus_accurate_csv: bus_accurate_data.csv
+begin_date: 2023-01-01
+end_date: 2023-05-31
+begin_hour: 8
+end_hour: 10
+transitland_bus_path: transitland_bus/
+stop_times_path: stop_times.txt
+
+# parameters for simulating the headway of the Red Line
+period: 8
+speed: 20
+early_time: 7
+late_time: 10
