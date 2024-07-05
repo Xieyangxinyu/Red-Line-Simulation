@@ -1,6 +1,6 @@
 # An Assessment of the Impact of the Baltimore Red Line on Job Accessibility
 
-This is the codebase accompanying our report [An Assessment of the Impact of the Baltimore Red Line on Job Accessibility](https://hub.jhu.edu/2024/06/07/red-line-job-access-report/).
+This is the codebase accompanying our report [An Assessment of the Impact of the Baltimore Red Line on Job Accessibility](https://engineering.jhu.edu/news/report-red-line-will-increase-job-access-in-baltimore/?utm_campaign=wse_social&utm_medium=social&utm_source=linkedin).
 
 ## The working group
 - [Yangxinyu Xie](https://xieyangxinyu.github.io), PhD Candidate, Department of Statistics, University of Pennsylvania
